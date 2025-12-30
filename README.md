@@ -26,6 +26,12 @@
 
 ---
 
+
+
+https://github.com/user-attachments/assets/87839f47-84fd-44ac-b1e5-4438cea40f92
+
+
+
 ## 🎯 What is this?
 
 This is a **Model Context Protocol (MCP)** server that provides AI agents with intelligent, semantic access to [ClinicalTrials.gov](https://clinicaltrials.gov) — the world's largest database of clinical studies.
