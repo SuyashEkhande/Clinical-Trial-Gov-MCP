@@ -1,0 +1,30 @@
+[project]
+name = "clinicaltrials-mcp"
+version = "1.0.0"
+description = "A semantic MCP server for ClinicalTrials.gov API providing 10 intelligent tools for clinical trial research"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Suyash Ekhande" }]
+keywords = ["mcp", "clinical-trials", "fastmcp", "healthcare", "ai"]
+
+dependencies = [
+    "fastmcp>=2.0.0",
+    "aiohttp>=3.9.0",
+    "pydantic>=2.0.0",
+    "cachetools>=5.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["."]
